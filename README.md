@@ -37,6 +37,11 @@ Edit the 'defaults' parameter (which should start out empty) <br/>
         },
 ```
 
+Extra credit: <br/>
+Update the starting directory for your terminals via pressing CTRL + SHIFT + , <br/>
+Under profiles -> list -> Find the one you want, for example the one with "source": "Windows.Terminal.PowershellCore" <br/>
+Add "startingDirectory": "C:\\" , or whatever other starting directory you might want.
+
 
 Reference: <br/>
 https://www.hanselman.com/blog/adding-predictive-intellisense-to-my-windows-terminal-powershell-prompt-with-psreadline <br/>
